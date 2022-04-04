@@ -10,7 +10,7 @@ class App extends React.Component {
 			this.setState({ isLoading: false });
 		}, 3000);
 	}
-	//
+	// comment
 	render() {
 		const { isLoading } = this.state;
 		return <div>{isLoading ? "Loading" : "We are Ready"}</div>;
