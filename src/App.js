@@ -18,7 +18,7 @@ class App extends React.Component {
 		this.setState({ movies, isLoading: false });
 	};
 	componentDidMount() {
-		// fetch data API
+		// Fetch data API
 		this.getMovies();
 	}
 	// comment
