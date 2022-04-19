@@ -18,7 +18,7 @@ function Movie({ id, year, title, summary, poster, genres }) {
 					))}
 				</ul>
 				<p className={styles.movie__summary}>
-					{summary.length > 235
+					{summary.length > 150
 						? `${summary.slice(0, 235)}...`
 						: summary}
 				</p>
